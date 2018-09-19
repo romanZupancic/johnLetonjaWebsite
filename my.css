@@ -1,0 +1,91 @@
+body {
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+.titleContainer {
+    margin-top:3em;
+    background: url("imgs/backgroundUpdated2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.titleCard {
+    width:50%;
+    position:absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+.titleText {
+    margin-top:5em;
+    text-align:center;
+    display: none;
+}
+
+.titleImage {
+    border-width: 10px;
+    border-radius: 40px;
+    width: 50%;
+}
+
+.section {
+    margin-top: 0px;
+    padding-top:4em;
+    padding-bottom:4em;
+}
+#aboutMe {
+    background-color: rgb(225, 225, 225);
+}
+
+#ward39 {
+    background-color: #ffc374;
+}
+
+.cell {
+    background: white;
+    border: 5px, solid, black;
+    border-radius: 25px;
+    padding: 2em;
+    height: 100%;
+}
+
+.cellImgResize {
+    display:block;
+    width:50%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .titleContainer {
+        margin-top:8em;
+    }
+
+    .titleImage {
+        width: 75%;
+    }
+}
+
+@media (max-width:767px){
+    .titleContainer {
+        display:none;
+    }
+
+    .titleText {
+        display: block;
+    }
+    
+}
+
+@media (max-width:991px){
+    .titleCard {
+        width:70%;
+    }
+}
